@@ -35,7 +35,7 @@ LibraryReport <- function(spectra = SpecDataDolphin,
   
   pushViewport(viewport(layout.pos.row = 3))
   
-  grid.text("Nontargeted analysis reveals hundreds of unmonitored bioaccumulative compounds\nin bottlenose dolphins from Southern California.", y = 0.9, gp = gpar(cex = 1.25))
+  grid.text("Nontargeted biomonitoring of halogenated organic compounds in two ecotypes of\nbottlenose dolphins (Tursiops truncatus) from the Southern California Bight", y = 0.9, gp = gpar(cex = 1.25))
   grid.text("Authors: Nellie J. Shaul, Nathan G. Dodder, Lihini I. Aluwihare, Susan A. Mackintosh,\nKeith A. Maruya, Susan J. Chivers, Kerri Danil, David W. Weller, Eunha Hoh", y = 0.6, gp = gpar(cex = 1.25))
   grid.text("Web Reference: http://OrgMassSpec.github.io", y = 0.3, gp = gpar(cex = 1.25))
   

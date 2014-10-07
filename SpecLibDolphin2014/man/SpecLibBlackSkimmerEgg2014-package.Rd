@@ -5,7 +5,7 @@
 Mass Spectral Library Pacific Bottlenose Dolphin Blubber 2014
 }
 \description{
-Contains the code and mass spectral library described in: Nontargeted analysis reveals hundreds of unmonitored bioaccumulative compounds in bottlenose dolphins from Southern California.
+Contains the code and mass spectral library described in: Nontargeted biomonitoring of halogenated organic compounds in two ecotypes of bottlenose dolphins (Tursiops truncatus) from the Southern California Bight.
 
 The corresponding article includes a description of
 the study goals, samples, and GCxGC/TOF-MS
