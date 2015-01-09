@@ -1,8 +1,8 @@
 Package: SpecLibDolphin2014
 Type: Package
 Title: Mass Spectral Library Pacific Bottlenose Dolphin Blubber 2014
-Version: 0.1-1
-Date: 2014-09-15
+Version: 0.1-2
+Date: 2015-01-09
 Author: Nellie J. Shaul, Nathan G. Dodder, Lihini I. Aluwihare, Susan A. Mackintosh, Keith A. Maruya, Susan J. Chivers, Kerri Danil, David W. Weller, Eunha Hoh
 Maintainer: Nathan Dodder <nathand@sccwrp.org>
 Depends: R (>= 3.0.0), OrgMassSpecR (>= 0.4-4), grid
