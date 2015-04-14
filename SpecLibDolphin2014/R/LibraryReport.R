@@ -1,8 +1,13 @@
 # # Code to generate MSP text file:
 # 
-# x <- MetaDataDolphin[, c("Compound", "SpectrumFilename")]
-# names(x) <- c("compound", "filename")
-# WriteMspFile(SpecDataDolphin, x, filename = "SpecLibDolphin2014.txt", 
+# library(SpecLibDolphin2014)
+# uniqueCompounds <- as.character(unique(MetaDataDolphin$ReferenceSpectrum))
+# endings <- substr(uniqueCompounds, (nchar(uniqueCompounds) - 2) + 1, nchar(uniqueCompounds))
+# uniqueSampleCompounds <- paste(uniqueCompounds, endings, sep = "_")
+# filteredMetadata <- MetaDataDolphin[MetaDataDolphin$SpectrumFilename %in% uniqueSampleCompounds, c("Compound", "SpectrumFilename")]
+# names(filteredMetadata) <- c("compound", "filename")
+# filteredSpectra <- SpecDataDolphin[SpecDataDolphin$filename %in% uniqueSampleCompounds, ]
+# WriteMspFile(filteredSpectra, filteredMetadata, filename = "SpecLibDolphin2014.txt", 
 #              comment = "Blubber from two ecotypes of common bottlenose dolphins (Tursiops truncatus) fatally stranded in the Southern California Bight from 1995 to 2010. Shaul, NJ, et al.")
 
 LibraryReport <- function(spectra = SpecDataDolphin,
